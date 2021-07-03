@@ -51,9 +51,35 @@ html {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .article:hover {
     color: black;
 }
+
+#writings a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: black !important;
+}
+
+#contact {
+    background: linear-gradient(#00f7ff, #ff0000);
+    ;
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.contact_1 a {
+    color: black;
+    text-shadow: none;
+}
+
+Chat
